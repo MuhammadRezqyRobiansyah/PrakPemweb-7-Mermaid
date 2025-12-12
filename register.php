@@ -1,8 +1,6 @@
 <?php
-// Sertakan file koneksi
 include 'koneksi.php';
 
-// Cek apakah form sudah disubmit
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // 1. Ambil data dari form
     $username = $koneksi->real_escape_string($_POST['username']);
@@ -12,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $email = $koneksi->real_escape_string($_POST['email']);
     $no_hp = $koneksi->real_escape_string($_POST['no_hp']);
     
-    $errors = []; // Array untuk menampung error validasi
+    $errors = [];
 
     // 2. Lakukan Validasi Ketat
     if (empty($username) || empty($password) || empty($konfirm_password) || empty($nama_lengkap) || empty($email)) {
@@ -42,9 +40,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     // 3. Jika tidak ada error, simpan data
     if (empty($errors)) {
-        // Hashing Password Wajib (Implementasi Autentikasi Aman)
+        // Hashing Password
         $hashed_password = password_hash($password, PASSWORD_DEFAULT);
-        $role = 'customer'; // Default role adalah customer
+        $role = 'customer';
 
         $stmt = $koneksi->prepare("INSERT INTO users (username, password, nama_lengkap, email, no_hp, role) VALUES (?, ?, ?, ?, ?, ?)");
         $stmt->bind_param("ssssss", $username, $hashed_password, $nama_lengkap, $email, $no_hp, $role);
