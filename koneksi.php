@@ -1,14 +1,14 @@
 <?php
-// ========== KONFIGURASI DATABASE ==========
+// KONFIGURASI DATABASE
 $host = "localhost";
 $user = "root";       
-$pass = "";           // Default password XAMPP adalah kosong
+$pass = "";
 $db = "thalassa_deep"; 
 
-// ========== MEMBUAT KONEKSI (MySQLi) ==========
+// MEMBUAT KONEKSI (MySQLi)
 $koneksi = new mysqli($host, $user, $pass, $db);
 
-// ========== CEK KONEKSI ==========
+// CEK KONEKSI 
 if ($koneksi->connect_error) {
     // Jika koneksi gagal, hentikan eksekusi dan tampilkan pesan error
     die("Koneksi ke database gagal: " . $koneksi->connect_error);
