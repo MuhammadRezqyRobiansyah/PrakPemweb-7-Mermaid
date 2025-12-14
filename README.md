@@ -50,28 +50,6 @@ PrakPemweb-7-Mermaid/
 └── README.md                # Deskripsi proyek ini
 ```
 
-## Demo Aplikasi 📸
-
-*(Ambil screenshot halaman penting, simpan di folder `screenshots/`, lalu ganti link di bawah ini)*
-
-- Home / Landing Page  
-  ![Home](screenshots/home.png)
-
-- Menu  
-  ![Menu](screenshots/menu.png)
-
-- Reservasi  
-  ![Reservasi](screenshots/reservasi.png)
-
-- My Reservations  
-  ![My Reservations](screenshots/my_reservations.png)
-
-- Admin Dashboard  
-  ![Admin Dashboard](screenshots/admin_dashboard.png)
-
-- Edit Menu  
-  ![Edit Menu](screenshots/edit_menu.png)
-
 ## Cara Install 👾
 
 1. Clone repository ini:
