@@ -30,7 +30,7 @@ require_once 'koneksi.php';
             position: relative;
             width: 100%;
             height: 90vh;
-            background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('bglautmermaid.jpeg');
+            background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('Pictures/bglautmermaid.jpeg');
             background-size: cover;
             background-position: center;
             padding-left: 8%;

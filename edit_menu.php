@@ -78,7 +78,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Menu - Admin</title>
     <style>
-        body { background: linear-gradient(rgba(6, 30, 63, 0.85), rgba(6, 30, 63, 0.85)), url('bglautmermaid.jpeg'); color: white; font-family: 'Inter', sans-serif; padding: 120px 40px 40px; margin: 0; }
+        body { background: linear-gradient(rgba(6, 30, 63, 0.85), rgba(6, 30, 63, 0.85)), url('Pictures/bglautmermaid.jpeg'); color: white; font-family: 'Inter', sans-serif; padding: 120px 40px 40px; margin: 0; }
         .form-container { max-width: 600px; margin: 0 auto; background: rgba(255,255,255,0.1); padding: 30px; border-radius: 20px; backdrop-filter: blur(10px); }
         h2 { text-align: center; color: #FFD700; font-family: 'Marko One', serif; font-size: 32px; }
         label { display: block; margin: 15px 0 5px; color: #FFD700; font-weight: 600; }

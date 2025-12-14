@@ -48,7 +48,7 @@ if (isset($_GET['confirm'])) {
     <style>
         body {
             font-family: 'Inter', sans-serif;
-            background: linear-gradient(rgba(6, 30, 63, 0.85), rgba(6, 30, 63, 0.85)), url('bglautmermaid.jpeg');
+            background: linear-gradient(rgba(6, 30, 63, 0.85), rgba(6, 30, 63, 0.85)), url('Pictures/bglautmermaid.jpeg');
             background-size: cover;
             background-attachment: fixed;
             color: #FFFFFF;

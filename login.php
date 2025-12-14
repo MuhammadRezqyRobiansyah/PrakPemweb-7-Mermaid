@@ -65,7 +65,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             margin: 0;
             font-family: 'Inter', sans-serif;
             background-color: #061E3F;
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('bglautmermaid.jpeg');
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Pictures/bglautmermaid.jpeg');
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
